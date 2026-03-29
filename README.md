@@ -52,7 +52,7 @@ root/
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/your-username/nxtbuild.git
+git clone https://github.com/bhangalegunjan/nxtbuild.git
 cd nxtbuild
 ```
 
@@ -73,6 +73,9 @@ Copy this:
 MONGODB_URI=your_mongodb_atlas_url
 JWT_SECRET=your_secret_key
 GEMINI_API_KEY=your_gemini_api_key
+JWT_EXPIRES_IN=7d
+CLIENT_URL=http://localhost:5173
+PORT=5000 
 ```
 
 ### What these mean:
