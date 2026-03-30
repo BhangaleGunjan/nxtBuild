@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 // const BASE_URL = 'http://localhost:5000/api';
-const BASE_URL = 'https://nxtbuild-production.up.railway.app';
+const BASE_URL = 'https://nxtbuild-production.up.railway.app/api';
 
 const getHeaders = () => {
   const token = Cookies.get('token');
